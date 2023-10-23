@@ -8,8 +8,8 @@ import GlowingBaby from "../assets/glowing-eyes.png";
 // perhaps so we could do something along the lines of `eyeColorMapper['blue'] and get back the right image?`
 
 function BabyHog({name, hobby, eyeColor}) {
-  const [weight, setWeight] = useState(0)
-  const  imageHeight = 200
+  const [weight, setWeight] = useState(50)
+  const  imageHeight = 150
   const imageEyecolor = [eyeColor].map((color)=>{
     if(color === 'glowing'){
       return GlowingBaby
